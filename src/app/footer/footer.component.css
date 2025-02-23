@@ -1,0 +1,11 @@
+.footer-container {
+  background-color: var(--dark-color);
+}
+
+.copy-right {
+  background-color: var(--dark-footer-color);
+}
+
+.boxes {
+  padding: 80px 0 !important;
+}

@@ -1,0 +1,39 @@
+.body {
+  padding-top: 120px;
+}
+
+.white-line {
+  width: 80px;
+  height: 5px;
+  background-color: var(--dark-color);
+}
+
+i.star {
+  align-self: center !important;
+}
+
+.white-line,
+i.star {
+  color: var(--dark-color);
+}
+
+h2 {
+  color: var(--dark-color);
+}
+
+button {
+  background-color: var(--green-color);
+}
+
+button:hover {
+  background-color: var(--green-color) !important;
+}
+
+label {
+  color: var(--green-color);
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}

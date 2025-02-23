@@ -1,0 +1,25 @@
+<div class="body text-center pb-5">
+  <img
+    src="avataaars.png"
+    alt="Personal Photo"
+    class="peronal-photo animate__animated animate__fadeInDown"
+  />
+  <div class="caption position-relative animate__animated animate__fadeInUp">
+    <h2
+      class="text-white text-uppercase fw-bold fs-1"
+      [routerLink]="'home-descr'"
+      routerLinkActive="'bg-white'"
+    >
+      Start Framework
+    </h2>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="bg-white white-line"></div>
+      <i class="fa-solid fa-star text-white star px-3"></i>
+      <div class="bg-white white-line"></div>
+    </div>
+    <p class="text-white my-3 pb-5">
+      Graphic Artist - Web Designer - Illustrator
+    </p>
+  </div>
+  <router-outlet></router-outlet>
+</div>

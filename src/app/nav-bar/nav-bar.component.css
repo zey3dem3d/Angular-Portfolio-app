@@ -1,0 +1,12 @@
+.myNavBar {
+  background-color: var(--dark-color);
+}
+
+.bg-green-active {
+  background-color: var(--green-color);
+  border-radius: 10px;
+}
+
+nav {
+  z-index: 1000;
+}

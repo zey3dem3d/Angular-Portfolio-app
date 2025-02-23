@@ -1,0 +1,10 @@
+.body {
+  background-color: var(--green-color);
+  padding: 270px 0;
+}
+
+.white-line {
+  width: 80px;
+  height: 5px;
+  vertical-align: middle;
+}

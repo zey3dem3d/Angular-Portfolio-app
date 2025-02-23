@@ -1,0 +1,6 @@
+p {
+  color: var(--dark-color);
+}
+.body {
+  padding: 120px 0 50px 0;
+}

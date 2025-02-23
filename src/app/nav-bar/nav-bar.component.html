@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary p-0 position-fixed w-100">
+  <div class="container-fluid py-4 myNavBar ps-md-5 pe-md-5">
+    <a
+      class="navbar-brand text-decoration-none text-white fs-3 fw-bold text-uppercase"
+      [routerLink]="'start-framework'"
+      >Start Framework</a
+    >
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none text-white fw-semibold text-uppercase px-2"
+            [routerLink]="'about'"
+            [routerLinkActive]="'bg-green-active'"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none text-white fw-semibold text-uppercase px-2"
+            [routerLink]="'portfolio'"
+            [routerLinkActive]="'bg-green-active'"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-decoration-none text-white fw-semibold text-uppercase px-2"
+            [routerLink]="'contact'"
+            [routerLinkActive]="'bg-green-active'"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

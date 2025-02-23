@@ -1,0 +1,47 @@
+.body {
+  padding-top: 150px !important;
+}
+
+h2 {
+  color: var(--dark-color);
+}
+
+.icon {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background-color: transparent;
+}
+
+.Sbox {
+  cursor: pointer;
+}
+
+.Sbox:hover .icon {
+  opacity: 1;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+
+.Sbox i {
+  inset: 32%;
+}
+
+.modal {
+  background-color: rgba(13, 110, 253, 0.2);
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.white-line {
+  width: 80px;
+  height: 5px;
+  background-color: var(--dark-color);
+}
+
+.white-line,
+i.star {
+  color: var(--dark-color);
+}
