@@ -15,4 +15,4 @@
 
 ##
 
- - **[Demo](https://angular-portfolio-app-sigma.vercel.app/#/start-framework)**
+ - **<a href="https://angular-portfolio-app-sigma.vercel.app/#/start-framework" target="_blank">Demo</a>**
