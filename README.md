@@ -15,4 +15,4 @@
 
 ## 📦 Installation & Setup
 
- **[Demo]([url](https://angular-portfolio-app-sigma.vercel.app/#/start-framework))**
+ - **[Demo]([url](https://angular-portfolio-app-sigma.vercel.app/#/start-framework))**
